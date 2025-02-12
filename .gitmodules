@@ -1,0 +1,12 @@
+[submodule "trusted-firmware-m"]
+	path = trusted-firmware-m
+	url = https://github.com/TrustedFirmware-M/trusted-firmware-m.git
+[submodule "pico-sdk"]
+	path = pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "uf2"]
+	path = uf2
+	url = https://github.com/microsoft/uf2.git
+[submodule "app/microrl/microrl-remaster"]
+	path = app/microrl/microrl-remaster
+	url = https://github.com/dimmykar/microrl-remaster.git

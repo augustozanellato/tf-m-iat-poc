@@ -1,0 +1,6 @@
+tfm-build/
+rp2350-dbgkey-secure.cfg
+.gdb_history
+.venv
+__pycache__
+.env

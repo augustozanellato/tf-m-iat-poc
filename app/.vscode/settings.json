@@ -1,0 +1,9 @@
+{
+    "clangd.arguments": [
+        "--query-driver=/usr/bin/*-none-*-g*"
+    ],
+    "cmake.configureArgs": [
+        "-DCONFIG_SPE_PATH=${workspaceFolder}/tfm-artifacts",
+        "-DPICO_SDK_PATH=${workspaceFolder}/../pico-sdk"
+    ]
+}

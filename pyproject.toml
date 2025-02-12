@@ -1,0 +1,15 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "iatverifier",
+    "imgtool>=2.1.0",
+    "pwntools>=4.14.0",
+    "pycryptodome>=3.21.0",
+]
+
+[tool.uv.sources]
+iatverifier = { git = "https://github.com/TrustedFirmware-M/tf-m-tools", subdirectory = "iat-verifier" }

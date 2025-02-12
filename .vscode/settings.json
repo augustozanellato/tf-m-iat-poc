@@ -1,0 +1,22 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/trusted-firmware-m",
+    "cmake.buildDirectory": "${workspaceFolder}/tfm-build",
+    "clangd.arguments": [
+        "--query-driver=/usr/bin/*-none-*-g*",
+        "--compile-commands-dir=${workspaceFolder}/tfm-build"
+    ],
+    "cmake.configureArgs": [
+        "-DTFM_PLATFORM=rpi/rp2350",
+        "-DCMAKE_INSTALL_PREFIX=${workspaceFolder}/app/tfm-artifacts",
+        "-DTFM_PROFILE=profile_medium",
+        "-DPICO_SDK_PATH=${workspaceFolder}/pico-sdk",
+        "-DPLATFORM_DEFAULT_PROVISIONING=OFF",
+        "-DTFM_DUMMY_PROVISIONING=ON",
+        "-DMCUBOOT_LOG_LEVEL=INFO",
+        "-DTFM_SPM_LOG_LEVEL=TFM_SPM_LOG_LEVEL_INFO",
+        "-DTFM_PARTITION_LOG_LEVEL=TFM_PARTITION_LOG_LEVEL_INFO",
+        "-DTFM_LOG_FATAL_ERRORS=ON",
+        "-DTFM_LOG_NONFATAL_ERRORS=ON",
+        "-DMCUBOOT_IMAGE_VERSION_NS=1.0.0",
+    ]
+}
