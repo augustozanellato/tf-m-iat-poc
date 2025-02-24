@@ -155,4 +155,7 @@ apply-patches:
   git apply -- ../tf-m-patches/*.patch
 
 verify *args:
-  uv run python verifier/verify.py $SERIAL_PORT {{args}} 
+  uv run python verifier/verify.py $SERIAL_PORT {{args}}
+
+serial-term:
+  uv run pyserial-miniterm --raw $SERIAL_PORT 115200

@@ -18,5 +18,12 @@
         "-DTFM_LOG_FATAL_ERRORS=ON",
         "-DTFM_LOG_NONFATAL_ERRORS=ON",
         "-DMCUBOOT_IMAGE_VERSION_NS=1.0.0",
+    ],
+    "cSpell.words": [
+        "CBOR",
+        "COSE",
+        "NSPE",
+        "ROTPK",
+        "tschofenig"
     ]
 }

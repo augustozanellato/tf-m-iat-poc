@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 960 495" width="960" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="120" rows="29"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="960" height="493" viewBox="0 0 960 493" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="72" class="color2">TF-M NS&gt; </text><text x="72" textLength="32" class="foreground">help</text></g><g id="g2"><text x="0" textLength="152" class="foreground">Available commands:</text></g><g id="g3"><text x="64" textLength="48" class="foreground">attest</text></g><g id="g4"><text x="64" textLength="32" class="foreground">help</text></g><g id="g5"><text x="64" textLength="56" class="foreground">version</text></g><g id="g6"><text x="64" textLength="32" class="foreground">info</text></g><g id="g7"><text x="0" textLength="72" class="color2">TF-M NS&gt; </text><text x="72" textLength="568" class="foreground">attest AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</text></g><g id="g8"><text x="0" textLength="800" class="foreground">attesting with challenge `AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA` (len=32)</text></g><g id="g9"><text x="0" textLength="184" class="foreground">presumed token size 464</text></g><g id="g10"><text x="0" textLength="256" class="foreground">initial attestation token (464):</text></g><g id="g11"><text x="64" textLength="768" class="foreground">d2 84 43 a1 01 26 a0 59 01 84 a8 3a 00 01 24 ff 58 20 ea ea ea ea ea ea ea ea ea ea ea ea ea ea </text></g><g id="g12"><text x="64" textLength="768" class="foreground">ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea ea 3a 00 01 24 fb 58 20 62 08 db 70 1b e8 19 </text></g><g id="g13"><text x="64" textLength="768" class="foreground">08 5c 36 55 2e f3 78 09 b3 bd a6 bc 50 00 eb 8e 4f 81 ad 8f 1b 37 0c 17 ab 3a 00 01 25 00 58 21 </text></g><g id="g14"><text x="64" textLength="768" class="foreground">01 07 8c 18 f1 10 f4 32 ff 78 0c d8 da e5 80 69 a2 a0 d8 22 77 cb c6 64 50 c8 58 1d d4 7d 96 a2 </text></g><g id="g15"><text x="64" textLength="768" class="foreground">2e 3a 00 01 24 fa 58 20 aa aa aa aa aa aa aa aa bb bb bb bb bb bb bb bb cc cc cc cc cc cc cc cc </text></g><g id="g16"><text x="64" textLength="768" class="foreground">dd dd dd dd dd dd dd dd 3a 00 01 24 f8 3a 3b ff ff ff 3a 00 01 24 f9 19 30 00 3a 00 01 24 fd 82 </text></g><g id="g17"><text x="64" textLength="768" class="foreground">a5 01 63 53 50 45 04 65 32 2e 31 2e 31 05 58 20 e3 04 66 f6 b8 47 0c 1f 29 07 0b 17 f1 e2 d3 e9 </text></g><g id="g18"><text x="64" textLength="768" class="foreground">4d 44 5e 3f 60 80 87 fd c7 11 e4 38 2b b5 38 b6 06 66 53 48 41 32 35 36 02 58 20 56 4f 48 1b 3d </text></g><g id="g19"><text x="64" textLength="768" class="foreground">28 4c ac c6 6c 69 56 53 03 27 4a b5 c2 12 ac 06 07 6b 97 a1 1e 54 f7 bd d4 8c 74 a5 01 64 4e 53 </text></g><g id="g20"><text x="64" textLength="768" class="foreground">50 45 04 65 31 2e 30 2e 30 05 58 20 82 a5 b4 43 59 48 53 d4 bf 0f dd 89 a9 14 a5 dc 16 f8 67 54 </text></g><g id="g21"><text x="64" textLength="768" class="foreground">82 07 d7 07 7e 74 d8 0c 06 3e fd a9 06 66 53 48 41 32 35 36 02 58 20 3c 70 cf 40 ad 2d 35 65 70 </text></g><g id="g22"><text x="64" textLength="768" class="foreground">63 18 df b0 5a 54 7b 4f e6 e3 fa bb 4f 70 c4 20 a3 ee 6e a0 18 33 78 3a 00 01 24 f7 71 50 53 41 </text></g><g id="g23"><text x="64" textLength="768" class="foreground">5f 49 4f 54 5f 50 52 4f 46 49 4c 45 5f 31 58 40 3f c1 68 e2 61 cf 8e 8f 5d 0d b6 d2 6e 42 2a 57 </text></g><g id="g24"><text x="64" textLength="768" class="foreground">cb be a9 b7 b7 48 c9 f6 85 9a f3 a4 9a 2d 0b 85 a1 46 4e e5 4d b9 af a8 3c af 3f ad 87 57 b4 5b </text></g><g id="g25"><text x="64" textLength="384" class="foreground">94 8b 0b 85 69 6f ed 65 bf 7d 71 db 10 11 24 74 </text></g><g id="g26"><text x="0" textLength="72" class="color2">TF-M NS&gt; </text></g><g id="g27"><text x="0" textLength="96" class="foreground">--- exit ---</text></g><g id="g28"><text x="0" textLength="8" class="background"> </text></g></defs><g><use xlink:href="#g1" y="17"/><use xlink:href="#g2" y="34"/><use xlink:href="#g3" y="51"/><use xlink:href="#g4" y="68"/><use xlink:href="#g5" y="85"/><use xlink:href="#g6" y="102"/><use xlink:href="#g7" y="119"/><use xlink:href="#g8" y="136"/><use xlink:href="#g9" y="153"/><use xlink:href="#g10" y="170"/><use xlink:href="#g11" y="187"/><use xlink:href="#g12" y="204"/><use xlink:href="#g13" y="221"/><use xlink:href="#g14" y="238"/><use xlink:href="#g15" y="255"/><use xlink:href="#g16" y="272"/><use xlink:href="#g17" y="289"/><use xlink:href="#g18" y="306"/><use xlink:href="#g19" y="323"/><use xlink:href="#g20" y="340"/><use xlink:href="#g21" y="357"/><use xlink:href="#g22" y="374"/><use xlink:href="#g23" y="391"/><use xlink:href="#g24" y="408"/><use xlink:href="#g25" y="425"/><use xlink:href="#g26" y="442"/><use xlink:href="#g27" y="459"/><rect x="0" y="476" width="8" height="17" class="foreground"/><use xlink:href="#g28" y="476"/></g></svg>
+</svg>

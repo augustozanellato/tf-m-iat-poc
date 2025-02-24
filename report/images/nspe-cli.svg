@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 960 478" width="960" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="120" rows="28"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="960" height="476" viewBox="0 0 960 476" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="960" class="foreground">--- Miniterm on /dev/serial/by-id/usb-ARM_DAPLink_CMSIS-DAP_000000800671ff525154887767033308a5a5a5a597969908-if01  11520</text></g><g id="g2"><text x="0" textLength="88" class="foreground">0,8,N,1 ---</text></g><g id="g3"><text x="0" textLength="552" class="foreground">--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---</text></g><g id="g4"><text x="0" textLength="200" class="foreground">[INF] Starting bootloader</text></g><g id="g5"><text x="0" textLength="48" class="foreground">[WRN] </text><text x="48" textLength="560" font-weight="bold" class="color9">This device was provisioned with dummy keys. This device is NOT SECURE</text></g><g id="g6"><text x="0" textLength="520" class="foreground">[INF] PSA Crypto init done, sig_type: EC-P256, using builtin keys</text></g><g id="g7"><text x="0" textLength="296" class="foreground">[INF] Image index: 1, Swap type: none</text></g><g id="g8"><text x="0" textLength="296" class="foreground">[INF] Image index: 0, Swap type: none</text></g><g id="g9"><text x="0" textLength="400" class="foreground">[INF] Bootloader chainload address offset: 0x11000</text></g><g id="g10"><text x="0" textLength="216" class="foreground">[INF] Image version: v2.1.1</text></g><g id="g11"><text x="0" textLength="296" class="foreground">[INF] Jumping to the first image slot</text></g><g id="g12"><text x="0" textLength="232" font-weight="bold" class="color12">Booting TF-M v2.1.1+265c8922e</text></g><g id="g13"><text x="0" textLength="312" font-weight="bold" class="color12">[Sec Thread] Secure image initializing!</text></g><g id="g14"><text x="0" textLength="280" class="foreground">[INF][PS] Encryption alg: 0x5500100</text></g><g id="g15"><text x="0" textLength="232" class="foreground">Non-Secure system starting...</text></g><g id="g16"><text x="0" textLength="128" class="foreground">Hello TF-M world</text></g><g id="g17"><text x="0" textLength="272" class="color4">####### System Information #######</text></g><g id="g18"><text x="0" textLength="176" class="foreground">TF-M isolation level 2</text></g><g id="g19"><text x="0" textLength="160" class="foreground">IAK public key (64):</text></g><g id="g20"><text x="64" textLength="768" class="foreground">79 eb a9 0e 8b f4 50 a6 75 15 76 ad 45 99 b0 7a df 93 8d a3 bb 0b d1 7d 00 36 ed 49 a2 d0 fc 3f </text></g><g id="g21"><text x="64" textLength="768" class="foreground">bf cd fa 89 56 b5 68 bf db 86 73 e6 48 d8 b5 8d 92 99 55 b1 4a 26 c3 08 0f 34 11 7d 97 1d 68 64 </text></g><g id="g22"><text x="0" textLength="272" class="color4">####### Software Versions  #######</text></g><g id="g23"><text x="0" textLength="192" class="foreground">Built with GCC:  v14.2.0</text></g><g id="g24"><text x="0" textLength="184" class="foreground">MbedTLS:         v3.6.2</text></g><g id="g25"><text x="0" textLength="168" class="foreground">PSA Framework:   v1.1</text></g><g id="g26"><text x="0" textLength="168" class="foreground">Attestation API: v1.0</text></g><g id="g27"><text x="0" textLength="72" class="color2">TF-M NS&gt; </text><text x="72" textLength="8" class="background"> </text></g></defs><g><use xlink:href="#g1" y="0"/><use xlink:href="#g2" y="17"/><use xlink:href="#g3" y="34"/><use xlink:href="#g4" y="51"/><use xlink:href="#g5" y="68"/><use xlink:href="#g6" y="85"/><use xlink:href="#g7" y="102"/><use xlink:href="#g8" y="119"/><use xlink:href="#g9" y="136"/><use xlink:href="#g10" y="153"/><use xlink:href="#g11" y="170"/><use xlink:href="#g12" y="187"/><use xlink:href="#g13" y="204"/><use xlink:href="#g14" y="221"/><use xlink:href="#g15" y="238"/><use xlink:href="#g16" y="255"/><use xlink:href="#g17" y="272"/><use xlink:href="#g18" y="289"/><use xlink:href="#g19" y="306"/><use xlink:href="#g20" y="323"/><use xlink:href="#g21" y="340"/><use xlink:href="#g22" y="357"/><use xlink:href="#g23" y="374"/><use xlink:href="#g24" y="391"/><use xlink:href="#g25" y="408"/><use xlink:href="#g26" y="425"/><rect x="72" y="442" width="8" height="17" class="color2"/><use xlink:href="#g27" y="442"/></g></svg>
+</svg>
